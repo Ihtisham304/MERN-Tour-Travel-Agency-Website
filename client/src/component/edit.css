@@ -1,0 +1,9 @@
+.for-container{
+    width: 500px !important; 
+}
+.for-container form{
+    width: 100% !important;
+}
+.for-container form div,select{
+    width: 100% !important;
+}

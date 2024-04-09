@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.brand-logo{
+    width: 200px;
+    height: 40px;
+}
+.img-w{
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.info{
+    color: #010437;
+    background-color: #fff;
+    text-align: center;
+}
+.info a{
+    color: #fff;
+    text-decoration: none;
+}
+.profile-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+}
+.about-us{
+    text-align: center;
+}
+/* marque style */
+.hd-marque{
+    overflow: hidden;
+    white-space: nowrap;
+}
+.marquee{
+    display: inline-block;
+    margin-top: 50px;
+    color: #990000; 
+    font-weight: bold;
+    animation: marquee-animation 23s linear infinite;
+}
+@keyframes marquee-animation{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.navitem{
+    color: #010437; 
+    font-weight: bolder;
+}
+.sbtn{
+    color: #000324; 
+    font-weight:bold;
+}
+ul{
+    list-style: none;
+}
+.row a{
+    text-decoration: none;
+    color: #fff;
+}
+.service{
+    background-color: #010437;
+    padding: 20px;
+    text-align: center;
+}
+.service h2{
+    color: #ebe7ff;
+    margin-bottom: 30px;
+}
+.mg-btm{
+    /* margin-left: 5px; */
+    margin-bottom: 20px;
+}
+#Ticketing{
+    display: none;
+    text-align: start;
+    color: #fff;
+    font-weight: bold;
+}
+#Ticketing label{
+    width: 150px;
+}
+
+#UmrahVisa label{
+    width: 150px;
+}
+.submit{
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+#DubaiVisa label{
+    width: 150px;
+}
+#UmrahVisa{
+    display: none;
+    color: #fff;
+    text-align: start;
+    font-weight: bold;
+}
+#DubaiVisa{
+    display: none;
+    text-align: start;
+    color: #fff;
+    font-weight: bold;
+}
+
+.check{
+    max-height: 400px;
+}
+.imgss{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+/* admin style */
+/* admin Style */
+.form{
+    width: 400px;
+    margin: 30px auto;
+}
+.lab-data{
+    width: 200px;
+    display: inline-block;
+}
+.tab-data{
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    border: 2px solid #010437;
+    text-align: center;
+}
+.btn-height{
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+    padding: 1px;
+}
+.center-align{
+    width: 100%;
+    margin: 30px auto;
+}
+.admin-interface{
+    width: auto;
+    height: 120vh;
+    background: fixed;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.4),rgba(0,0,0,0.4)50%), url('../assets/Dubai 3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:repeat;
+    display: none;
+    position: absolute;
+    color: #fff;
+}
+textarea{
+    background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    color: #fff;
+}
